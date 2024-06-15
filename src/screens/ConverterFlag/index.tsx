@@ -3,7 +3,7 @@ import { ArrowCircleLeft } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import axiosInstance from "@/api/axiosFrankfurterConfig";
-import CountryFlag from "@/components/Card";
+import CountryFlag from "@/components/CountryFlag";
 
 interface CurrencyResponse {
     amount: number;
